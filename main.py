@@ -46,7 +46,7 @@ def get_vacancies(platform: int, find: str):
         sj_v = sj.get_vacancies(find)
         select_vacancies = hh_v + sj_v
 
-    print(f"Получено вакансий: {len(select_vacancies)}\n")
+    print(f"Получено вакансий: {len(select_vacancies)}")
 
     jsr = JSONReader()
     jsr.save_vacancies(select_vacancies, "w")

@@ -3,7 +3,6 @@ import csv
 from vacancy import Vacancy
 import os
 from settings import settings
-from error_vacancy import ErrorDataTypeVacancy
 
 
 class CSVReader(AbcFile):

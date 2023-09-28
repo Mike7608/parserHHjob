@@ -71,7 +71,8 @@ def menu_main():
             print(f"{i}.", item)
 
         print("3. Все")
-        print("0. Выход из приложения\n")
+        print("0. Выход из приложения")
+
         select_platform = int(input("> "))
 
         if select_platform == 0:
